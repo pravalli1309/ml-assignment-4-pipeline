@@ -16,5 +16,6 @@ Source: https://www.kaggle.com/datasets/amitabhajoy/bengaluru-house-price-data
 | duplicate count | 529 | 97 |
 
 Final duplicate count is measured on the cleaned data; final column count is the width of the model-ready matrix.
+The 97 remaining duplicates are separate listings that differ only in columns I later dropped or converted (society, availability, or how size and area were written), so I kept them.
 
 Shapes: X_train (9621, 209), X_test (2406, 209), y_train (9621,), y_test (2406,)
